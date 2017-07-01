@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>My First Webpage</title>
+</head>
+<body>
+	<h1 id="top">This is my header</h1>
+	<h2>This is level 2 heading</h2>
+	<h3>This is level 3 heading</h3>
+	<h4>This is level 4 heading</h4>
+	<h5>This is level 5 heading</h5>
+	<h6>This is level 6 heading</h6>
+	<p>This is my first paragraph</p>
+	<p>Lorem ipsum. This is a <b>paragraph</b> blah blah <i>blah</i> blah blah.</p>
+	<p>If the paragraph is too bloody long, you can use <br>line break. <br></p>
+	<p>If you want a horizontal line, here you go.</p><hr> 
+	<p><em>Testing</em> <strong>every</strong> <marK>single</mark> <small>tag</small> <sub>in</sub> <sup>a</sup> <ins>single</ins> <del>sentence</del> wowz</p>
+
+	<ul>
+		<li>One</li>
+		<li>Two</li>
+	</ul>
+
+	<ol>
+		<li>On the first day of Christmas, my true love sent to me</li>
+			<ul><li>a Partridge in a Pear Tree</li></ul>
+		<li>On the second day of Christmas, my true love sent to me</li>
+			<ul><li>two turtle doves</li></ul>
+			<ul><li>a Partridge in a Pear Tree</li></ul>
+		<li>On the third day of Christmas, my true love sent to me</li>
+			<ul><li>three french hens</li></ul>
+			<ul><li>two turtle doves</li></ul>
+			<ul><li>a Partridge in a Pear Tree</li></ul>
+	</ol>
+
+	<a href="http://www.straitstimes.com/">The Straits Times</a>
+
+	<p>how you link something within your own webpage. define id=something on the top. id must be part of the h1 tag.</p>
+	
+
+	<img src="http://i.imgur.com/rom0s20.jpg">
+	<p>if you want to link something from your desktop, reference the path </p>
+
+<table>
+		<tr>
+			<th scope="col">Mon</th>
+			<th scope="col">Tue</th>
+			<th scope="col">Sets as header</th>
+		</tr>
+		<tr>
+			<td>1</td>
+			<td>2</td>
+			<td>3</td>
+		</tr>
+
+</table>
+
+<table>
+	<tr>
+		<th scope="row">Mon</th>
+		<td>1</td>
+	</tr>
+	<tr>
+		<th scope="row">Tues</th>
+		<td>2</td>
+	</tr>
+</table>
+
+<table style="text-align: center">
+	<tr>
+		<th></th>
+		<th scope="col">Mon</th>
+		<th scope="col">Tue</th>
+		<th scope="col">Wed</th>
+	</tr>
+	<tr>
+		<th scope="row">Cookies ate</th>
+			<td>1</td>
+			<td>2</td>
+			<td>3</td>
+	</tr>
+	<tr>
+		<th scope="row">Donuts ate</th>
+			<td>3</td>
+			<td>2</td>
+			<td>1</td>
+	</tr>
+</table>
+
+<p>if you want to merge cells in a table.. use column span or row span</p>
+
+<table style="text-align: center; color: white" cellpadding="10">
+	<tr bgcolor="black">
+		<th></th>
+		<th scope="col">Mon</th>
+		<th scope="col">Tue</th>
+		<th scope="col">Wed</th>
+	</tr>
+
+	<tr bgcolor="black">
+		<th scope="row">Donuts ate</th>
+		<td>3</td>
+		<td colspan="2">infinite</td>
+	</tr>
+</table>
+
+
+<h1>Forms</h1>
+	<form>
+		<p>
+			Username:
+				<input type="text" name="Username" size="15" max="10">
+		</p>
+
+		<p>
+			Comment: You use text area so that you have more than a line available.<br>
+				<textarea name="comments" cols="40" rows="5">
+				Enter your comments...	
+				</textarea>
+		</p>
+
+		<p>
+			Password:
+				<input type="Password" name="Password" size="15">
+				</p>
+
+		<p>Please select your gender:
+			<input type="radio" name="gender" value="Female" checked="checked">Female
+			<input type="radio" name="gender" value="Male">Male
+		</p>
+
+		<p>Please select your gender:
+			<select name="gender">
+				<option value="Male">Male</option>
+				<option value="Female">Female</option>
+			</select>
+		</p>
+
+		<p>Please select your religion:
+			<input type="checkbox" name="religion1" value="Buddhist" checked="checked">I am a Buddhist
+			<input type="checkbox" name="religion2" value="Christian">I am a Christian
+		</p>
+
+		<p>Subscribe to our emai list:
+		<input type="text" name="email">
+		<input type="submit" name="Subscribe" value="Subscribe">
+		</p>
+		<p>Please select your date of birth:
+		<input type="date" name="birthday">
+		</p>
+		<p>Please select your favourite colour:
+		<input type="color" name="favcolor">
+		</p>
+	</form>
+
+
+<! - comment within the comment tag that doesnt show up on the browser >
+<br><a href="#top">To the top</a>
+</body>
+</html>
+
+
+

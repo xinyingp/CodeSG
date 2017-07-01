@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+
+body {
+	background-color: linen;
+	background-image: url("http://www.pngall.com/wp-content/uploads/2016/04/Sunflowers-PNG-Picture.png");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+
+h1 {
+	margin-left: 40px
+	color: black;
+}
+
+div {
+	height: 50px
+	width: 50px
+}
+
+p {
+	border: 5px solid blue;
+	border-radius: 5px;
+	border-width: 1px;
+	padding-top: 50px;
+	padding-right: 30px;
+	padding-bottom: 50px;
+	padding-left: 88px;
+	font-family: "Poppins";
+}
+
+#special {
+	color: red;
+}
+
+table, th, td {
+	border: 1px solid black;
+}
+
+th, td {
+	padding: 15px;
+	color: white;
+}
+
+th {
+	text-align: left;
+}
+
+table {
+	border-spacing: 1px;
+}
+
+table#t01 {
+	width: 50%;
+	background-color: #028392;
+}
+
+table#t01 th {
+	color: black;
+	background-color: pink;
+}
